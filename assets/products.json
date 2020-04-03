@@ -9,7 +9,8 @@
     "discount": null,
     "discount_type": null,
     "order": 1,
-    "category": "Pirate"
+    "category": "Pirate",
+    "avatar": "https://picsum.photos/id/1/400/300"
   },
   {
     "id": 2,
@@ -45,7 +46,8 @@
     "discount": null,
     "discount_type": null,
     "order": 0,
-    "category": "Pirate"
+    "category": "Pirate",
+    "avatar": "https://picsum.photos/id/1/400/300"
   },
   {
     "id": 5,

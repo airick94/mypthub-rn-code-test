@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNCodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNCodeTestTests.m */; };
+		0312A48124374CA600741F2A /* ServiceKeyReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312A48024374CA600741F2A /* ServiceKeyReader.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -44,6 +45,8 @@
 		00E356EE1AD99517003FC87E /* RNCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNCodeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCodeTestTests.m; sourceTree = "<group>"; };
+		0312A47F24374C7C00741F2A /* ServiceKeyReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceKeyReader.h; sourceTree = "<group>"; };
+		0312A48024374CA600741F2A /* ServiceKeyReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceKeyReader.m; sourceTree = "<group>"; };
 		0B2C87D6E38FE9167FCDA024 /* libPods-RNCodeTest-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNCodeTest-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* RNCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNCodeTest/AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +125,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0312A47E24374C6500741F2A /* ServiceKeyReader */ = {
+			isa = PBXGroup;
+			children = (
+				0312A47F24374C7C00741F2A /* ServiceKeyReader.h */,
+				0312A48024374CA600741F2A /* ServiceKeyReader.m */,
+			);
+			path = ServiceKeyReader;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* RNCodeTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +186,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0312A47E24374C6500741F2A /* ServiceKeyReader */,
 				13B07FAE1A68108700A75B9A /* RNCodeTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNCodeTestTests */,
@@ -577,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0312A48124374CA600741F2A /* ServiceKeyReader.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -706,7 +720,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNCodeTest;
-				SERVICE_KEY = MmHsCMUt57;
+				SERVICE_KEY = le475jUm1D;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
